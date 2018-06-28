@@ -1,0 +1,359 @@
+.colors {
+  --primary-blue: #0C2074;
+  --medium-blue: #007cbe;
+  --light-blue: #73bfe5;
+  --affirmative-blue: #D9EDF7;
+  --primary-red: #d83b48;
+  --highlight-red: #fff2f1;
+  --text-gray: #343434;
+  --footnote-gray: #676767;
+  --punctuation-gray: #cccccc;
+}
+
+body {
+  margin: 40px 20px;
+  max-width: 90%;
+}
+
+
+h1 {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size:48px;
+  color: #0C2074;
+}
+
+h2 {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 28px;
+  color:#0C2074;
+}
+
+h3 {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 18px;
+  color:#0C2074;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+
+}
+
+
+.library-code {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 18px;
+  color:#343434;
+  padding-top: .6em;
+}
+
+.standard-text {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 1.6em;
+  color:#343434;
+}
+
+.caption {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 1.6em;
+  color:#343434;
+  margin-top: -1em;
+}
+
+a {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-weight: 500;
+  color:#0C2074;
+  text-decoration: none;
+  border-bottom: 4px #73bfe5 solid;
+}
+
+a:hover {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  color:#0C2074;
+  background-color: #D9EDF7;
+  text-decoration: none;
+  border-bottom: 4px #D9EDF7 solid;
+}
+
+.footnote-text {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  line-height: 1.6em;
+  color:#777777;
+}
+
+.button-primary {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #d83b48;
+  padding: 12px 20px;
+  border: 2px #d83b48 solid;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+.button-primary:hover {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #a50000;
+  padding: 12px 20px;
+  border: 2px #a50000 solid;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+.button-secondary {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #d83b48;
+  background: #fff;
+  padding: 12px 20px;
+  border: 2px #d83b48 solid;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+.button-secondary:hover {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  background: #D83B48;
+  padding: 12px 20px;
+  border: 2px #d83b48 solid;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+.button-small-primary {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  background: #d83b48;
+  padding: 8px 12px;
+  border: 2px #d83b48 solid;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+.button-small-primary:hover {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  background: #a50000;
+  padding: 8px 12px;
+  border: 2px #a50000 solid;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+.button-small-secondary {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #d83b48;
+  background: #fff;
+  border: 2px #d83b48 solid;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+.button-small-secondary:hover {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background: #d83b48;
+  border: 2px #d83b48 solid;
+  padding: 8px 12px;
+  border: 2px #d83b48 solid;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+
+
+
+#color-swatch-1 {
+  background-color: var(--primary-blue);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+
+#color-swatch-2 {
+  background-color: var(--medium-blue);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+#color-swatch-3 {
+  background-color: var(--light-blue);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+#color-swatch-4 {
+  background-color: var(--affirmative-blue);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+
+#color-swatch-5 {
+  background-color: var(--primary-red);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+
+#color-swatch-6 {
+  background-color: var(--highlight-red);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+
+#color-swatch-7 {
+  background-color: var(--text-gray);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+
+#color-swatch-8 {
+  background-color: var(--footnote-gray);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+
+#color-swatch-9 {
+  background-color: var(--punctuation-gray);
+  width: 150px;
+  height: 150px;
+  border: 2px #cccccc solid;
+  border-radius: 50%;
+}
+
+
+#feedback-message-red {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #de1324;
+  background: #fff2f1;
+  border: 3px #efcacf solid;
+  border-radius: 6px;
+  padding: 0px 20px 20px 20px;
+  max-width: 80%;
+  margin: 1em 0em;
+}
+
+#feedback-message-blue {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #0C2074;
+  background: #D9EDF7;
+  border: 3px #a2cee0 solid;
+  border-radius: 6px;
+  padding: 0px 20px;
+  max-width: 80%;
+  margin: 1em 0em;
+}
+
+#feedback-message-green {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #227217;
+  background: #e8f7e8;
+  border: 3px #8fcc8f solid;
+  border-radius: 6px;
+  padding: 0px 20px;
+  max-width: 80%;
+  margin: 1em 0em;
+}
+
+input[type=submit] {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #d83b48;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+input[type=submit]:hover {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #a50000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+
+input[type=text] {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 1.4em;
+  padding: 12px 20px;
+  border: 2px #787878 solid;
+  border-radius: 4px;
+  margin-top: 1em;
+  width: 80%;
+}
+
+hr {
+  max-width: 80%;
+  margin: 18px 0px;
+  border: 0;
+  border-top: 1px dashed #cccccc;
+}
